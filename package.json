@@ -1,7 +1,7 @@
 {
-  "name": "myvuecli",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{ description }}",
   "main": "webpack.config.js",
   "dependencies": {
     "axios": "^0.27.2",
@@ -27,6 +27,6 @@
     "build": "webpack --mode=production --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{ author }}",
   "license": "ISC"
 }
